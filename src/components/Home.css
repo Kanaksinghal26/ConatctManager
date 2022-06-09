@@ -1,0 +1,100 @@
+.heading h1{
+    text-align: center;
+    margin: 0%;
+}
+
+.heading{
+    height: 10vh;
+    background-color: rgba(0, 0, 255, 0.41);
+    box-sizing: border-box;
+    padding: 2vh;
+}
+
+.add_sign{
+    width: 22%;
+    height: 20vh;
+    background-color: white;
+    margin: 10px 37vw;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.addnew_heading{
+    margin: 20px auto;
+    width: max-content;
+    padding: 5px 30px;
+    background-color: rgba(14, 14, 14, 0.951);
+    font-size: 30px;
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.camera_box{
+    width: 6vw;
+    height: 12vh;
+    margin: 10px auto;
+    background-color: rgba(128, 128, 128, 0.588);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px auto;
+    cursor: pointer;
+    margin-bottom: 5vh;
+}
+
+input{
+    width: 30vw;
+    height: 4vh;
+}
+
+input[id=name]{
+    background-color: #FD1111;
+}
+
+input[id=email]{
+    background-color: #3A83C6;
+}
+
+input[id=phone]{
+    background-color: #21EB96;
+}
+
+input[id=nation]{
+    background-color: #9B9AE7;
+}
+
+input[id=profession]{
+    background-color: #E4BABA;
+}
+
+input[id=nickname]{
+    background-color: #94715E;
+}
+
+input[id=mutuality]{
+    background-color: #C39652;
+}
+
+input[id=address]{
+    background-color: #8945A1;
+}
+
+.inputs{
+    margin: 15px;
+}
+
+.submit{
+    width: 8vw;
+    height: 5vh;
+    margin: 10px auto;
+    box-sizing: border-box;
+    background-color: #7e14ffb0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: -30px;
+    border-bottom-left-radius: -30px;
+}
+
+
